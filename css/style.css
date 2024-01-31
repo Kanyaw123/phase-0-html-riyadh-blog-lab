@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap);
 
 html, body {
   height: 100%;
@@ -6,12 +6,12 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
+  background: linear-gradient(to bottom, #3498db, #8e6636, #fff);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 100%;
+  color: rgb(55, 185, 228);
 }
+
 
 .wrapper {
   margin: 0 auto;
@@ -52,7 +52,8 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.5em;
+  text-align: justify;
 }
 
 a {
